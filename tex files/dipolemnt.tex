@@ -1,0 +1,16 @@
+\documentclass[tikz,border=3mm]{standalone}
+
+\begin{document}
+\begin{tikzpicture}
+    \draw (-2,0) circle(0.5);
+    \draw (2,0) circle(0.5);
+    \draw (-1.5,0) -- (1.5,0);
+
+    \draw[thick, dashed, <->] (-2,1) -- (2,1);
+
+    \node[label={[xshift=-2.1cm, yshift=-0.4cm] $-q$}] {};
+    \node[label={[xshift=2cm, yshift=-0.4cm] $+q$}] {};
+    \node[label={[xshift=0cm, yshift=0.9cm] $2d$}] {};
+\end{tikzpicture}
+\end{document}
+

@@ -1,0 +1,13 @@
+\documentclass{standalone}
+\usepackage{tikz}
+
+\begin{document}
+\begin{tikzpicture}
+    \draw (0, 0) circle (3);
+    \draw[dotted] (0, 0) ellipse (3 and 1);
+    \draw[dotted] (0, 0) ellipse (0.5 and 3);
+
+    \filldraw (0,0) circle(2pt);
+    \draw[->] (0,0) -- (-0.95, -0.95);
+\end{tikzpicture}
+\end{document}

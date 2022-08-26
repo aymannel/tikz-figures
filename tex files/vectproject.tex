@@ -1,0 +1,16 @@
+\documentclass[tikz,border=1mm]{standalone}
+
+\begin{document}
+\begin{tikzpicture}
+    \draw (10pt,0) arc(0:45:10pt);
+
+    \draw[red, thick, ->] (0,0) -- (1.5,1.5);
+    \draw[blue, thick, ->] (0,0) -- (1.5,0);
+    \draw[black, thick] (0,0) -- (0.8,0.8);
+    \draw[black, dotted] (1.5,0) -- (0.8,0.8);
+
+    \node[label={[xshift=1.3cm, yshift=-0.1cm] $\vec{a}$}] {};    
+    \node[label={[xshift=0.9cm, yshift=0.8cm] $\vec{b}$}] {};    
+    \node[label={[xshift=0.45cm, yshift=-0.17cm] $\theta$}] {};    
+\end{tikzpicture}
+\end{document}

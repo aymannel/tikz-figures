@@ -1,0 +1,18 @@
+\documentclass[tikz,border=1mm]{standalone}
+
+\begin{document}
+\begin{tikzpicture}
+    \draw[dashed] (-1.2,0,0) -- (1.5,0,0);
+    \draw[dashed] (0,-1.2,0) -- (0,1.5,0);
+    \draw[dashed] (0,0,-2) -- (0,0,-0.5);
+    \draw (10pt,0) arc(0:90:10pt);
+
+    \draw[red, thick, ->] (0,0,0) -- (1.6,0,0);
+    \draw[blue, thick, ->] (0,0,0) -- (0,1.6,0);
+    \draw[black, thick, ->] (0,0,0) -- (0,0,2);
+
+    \node[label={[xshift=1.3cm, yshift=-0.1cm] $\vec{a}$}] {};    
+    \node[label={[xshift=0.25cm, yshift=0.8cm] $\vec{b}$}] {};    
+    \node[label={[xshift=0.11cm, yshift=-0.21cm] $\theta$}] {};    
+\end{tikzpicture}
+\end{document}
